@@ -1,6 +1,8 @@
 # DriverlessCarDashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+This code is designed as a frontend dashboard for the driverless toy car collaborated with GTM.
+
+The program is written in Angular 7. It fetches processed images form local disk periodically (short in time, ~200ms) and refreshes in page thus letting user feel like watching a video.
 
 ## Development server
 
