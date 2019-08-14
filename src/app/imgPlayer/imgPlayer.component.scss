@@ -1,0 +1,22 @@
+#imgPlayerFrame{
+  // text-align: center;
+  background-color: gray;
+  // border: 20px solid gray;
+  height: 560px;
+  // line-height: 560px;
+  // vertical-align: middle;
+  display: flex;
+  justify-content: center;
+}
+
+#imgPlayer{
+  width: 640px;
+  height: 480px;
+  border: 10px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  // vertical-align: middle;
+  // display: block;
+}
