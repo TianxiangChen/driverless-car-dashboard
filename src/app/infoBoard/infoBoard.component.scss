@@ -1,0 +1,35 @@
+.infoBoardFrame{
+  background-color: Gainsboro;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+}
+
+.infoBoard{
+  width: 640px;
+  height: 480px;
+  border: 10px solid gray;
+  border-radius: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.info{
+  padding: 25px;
+}
+
+.infoTitle{
+  text-align: center;
+}
+
+.infoContent{
+  margin: 6px 50px 6px 50px;
+  // font-size: 24px;
+  line-height: 150%;
+  // border:6px solid red;
+}
+
+#infoContentBullet{
+  margin-left: 10px;
+}

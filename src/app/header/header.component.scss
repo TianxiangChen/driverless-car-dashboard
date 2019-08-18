@@ -1,4 +1,22 @@
+.container{
+  height: 32px;
+}
+
+.leftLogo{
+  position: absolute;
+  left: 12px;
+}
+
+
 #logo-img{
   height: 30px;
   width: 170px;
+  position: absolute;
+  left: 12px;
+}
+
+.rightTitle{
+  color: white;
+  position: absolute;
+  right: 12px;
 }

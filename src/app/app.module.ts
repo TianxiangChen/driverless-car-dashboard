@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ImgPlayerComponent } from './imgPlayer/imgPlayer.component';
 import { MainPageComponent } from './mainPage/mainPage.component';
 import { FooterComponent } from './footer/footer.component';
+import { InfoBoardComponent } from './infoBoard/infoBoard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     ImgPlayerComponent,
     MainPageComponent,
-    FooterComponent
+    FooterComponent,
+    InfoBoardComponent
   ],
   imports: [
     BrowserModule,

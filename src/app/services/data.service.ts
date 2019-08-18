@@ -5,8 +5,8 @@ import { interval } from 'rxjs/observable/interval';
 import { of } from 'rxjs/observable/of';
 import { switchMap, map, delay, retryWhen} from 'rxjs/operators';
 
-const SERVER_API: string = 'http://localhost:5000/todo/api/v1.0/tasks';
-
+const IMG_API: string = 'http://localhost:5000/api/v1.0/imgData';
+const DATA_API: string = 'http://localhost:5000/api/v1.0/carData';
 
 @Injectable()
 export class DataService {
@@ -14,8 +14,13 @@ export class DataService {
     console.log('DataService initialized...');
   };
 
-  getSomeData(){
-    return this._http.get(SERVER_API)
+  getImgData(){
+    return this._http.get(IMG_API)
+      .pipe(map(res=>res.json()));
+  };
+
+  getCarData(){
+    return this._http.get(DATA_API)
       .pipe(map(res=>res.json()));
   };
 
