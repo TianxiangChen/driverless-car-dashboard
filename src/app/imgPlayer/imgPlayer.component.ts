@@ -22,6 +22,7 @@ export class ImgPlayerComponent implements OnInit {
     this.display = false;
     this.alive = true;
     this.interval = 100;
+    this.imgDirSafe = 'assets/imgNotFound.jpg';
 
 
   }

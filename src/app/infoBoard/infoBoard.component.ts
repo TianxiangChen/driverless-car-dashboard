@@ -24,7 +24,7 @@ export class InfoBoardComponent implements OnInit {
   constructor( private _dataService: DataService ) {
     this.display = false;
     this.alive = true;
-    this.interval = 100;
+    this.interval = 500;
     this.ax = 'N/A';
     this.ay = 'N/A';
     this.az = 'N/A';
