@@ -35,7 +35,7 @@ export class ImgPlayerComponent implements OnInit {
           .subscribe((data) => {
             this.imgDir = data['url'];
             this.imgDirSafe = this.sanitizer.bypassSecurityTrustUrl(this.imgDir);
-            console.log('Refresh_for_Img');
+            // console.log('Refresh_for_Img');
             if(!this.display){
               this.display = true;
             }

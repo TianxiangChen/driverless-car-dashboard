@@ -24,7 +24,7 @@ export class InfoBoardComponent implements OnInit {
   constructor( private _dataService: DataService ) {
     this.display = false;
     this.alive = true;
-    this.interval = 500;
+    this.interval = 100;
     this.ax = 'N/A';
     this.ay = 'N/A';
     this.az = 'N/A';
@@ -45,7 +45,7 @@ export class InfoBoardComponent implements OnInit {
             this.omega_x = data['omega_x'];
             this.omega_y = data['omega_y'];
             this.omega_z = data['omega_z'];
-            console.log('Refresh_for_carData');
+            // console.log('Refresh_for_carData');
             if(!this.display){
               this.display = true;
             }
