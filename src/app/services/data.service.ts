@@ -5,6 +5,8 @@ import { interval } from 'rxjs/observable/interval';
 import { of } from 'rxjs/observable/of';
 import { switchMap, map, delay, retryWhen} from 'rxjs/operators';
 
+// const IMG_API: string = 'http://10.84.112.141:5000/api/v1.0/imgData';
+// const DATA_API: string = 'http://10.84.112.141:5000/api/v1.0/carData';
 const IMG_API: string = 'http://localhost:5000/api/v1.0/imgData';
 const DATA_API: string = 'http://localhost:5000/api/v1.0/carData';
 
